@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+#email::placeholder{
+  background-image: url(../../public/vite.svg);
+  background-repeat: no-repeat;
+  background-position: start;
+  background-size: 2em;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+}
